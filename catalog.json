@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "name": "@local/codex-plus-usage",
+      "folder": "codex-plus-usage",
+      "version": "1.0.0",
+      "summary": "Codex Proxy model provider and usage pill, plus Codex Plus image tools (MCP).",
+      "sha256": "0b4a2da56dcec024180cb78d44ea03efe8d389afaa9eff0196186c475aaa855f",
+      "bytes": 54556,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/codex-plus-usage/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-app-dock",
+      "folder": "dsh-app-dock",
+      "version": "1.0.0",
+      "summary": "Compact persistent dock for the shipped sidebar browser pane.",
+      "sha256": "48faa997cf57bd8291a1169b3a48836b8d557d0a4bfd92346e9289f49b735c47",
+      "bytes": 9408,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-app-dock/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-appearance",
+      "folder": "dsh-appearance",
+      "version": "1.0.0",
+      "summary": "Live wallpaper (image / GIF / MP4) behind a translucent DSH, plus reversible design-polish toggles.",
+      "sha256": "decefc9e7534d3edd3b5201006af6f7429d120a2efa3d0ddffd54718cc16bb72",
+      "bytes": 37861,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-appearance/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-audio-mixer",
+      "folder": "dsh-audio-mixer",
+      "version": "1.0.0",
+      "summary": "Windows Core Audio master, application, and device controls for DSH.",
+      "sha256": "14940c92c231f1ba136aad8367383b86a98c0c19fa3494844f9209095b534f50",
+      "bytes": 18692,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-audio-mixer/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-boot-guard",
+      "folder": "dsh-boot-guard",
+      "version": "1.0.0",
+      "summary": "Boot survivability for DeepSeek Harness: validates every registered out-of-tree plugin before the client boot graph is fetched, and automatically disables (quarantines) the one a crash log blames, so one broken plugin can never leave DSH unbootable.",
+      "sha256": "284470d21e07c25d55e1a3a16118e25ba03a2cddd10e6906b9d1e2f0bd4f29a8",
+      "bytes": 76133,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-boot-guard/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-browser",
+      "folder": "dsh-browser",
+      "version": "1.0.0",
+      "summary": "Persistent favorites and recent links for the shipped DSH Browser tab",
+      "sha256": "deb91d1949ccc2c46c98c6a0000758e4ad0f68e60fda18794758f961b1f7306b",
+      "bytes": 8409,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-browser/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-browser-persist",
+      "folder": "dsh-browser-persist",
+      "version": "0.1.0",
+      "summary": "Keeps the DSH Browser tab signed in across restarts by re-applying one line of the installed app.asar shell",
+      "sha256": "bddfcc81916795b79cc5332e156242a4fd053ff52e3d6ac7fc7d59b91ea71561",
+      "bytes": 10321,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-browser-persist/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-chat-events",
+      "folder": "dsh-chat-events",
+      "version": "1.0.0",
+      "summary": "Model-change separators derived from durable assistant-message routes",
+      "sha256": "fe47ec8c8978232138f23fa28779bc9ed9251e824fccc9e83c734fa0fa62f698",
+      "bytes": 6435,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-chat-events/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-clock",
+      "folder": "dsh-clock",
+      "version": "1.0.0",
+      "summary": "Real-time date, time, and DSH uptime widget for the shared top status bar.",
+      "sha256": "d21be0b995c56ca2a31cfc4eb9ea72bc814babe9750cbbffd954a9e249b60159",
+      "bytes": 10934,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-clock/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-cosmetics",
+      "folder": "dsh-cosmetics",
+      "version": "1.0.0",
+      "summary": "Renames Workspaces and Sessions, and gives each a colour and an icon — the Workspace header, the sidebar brand row and every Session row in the sidebar.",
+      "sha256": "c150ef56d5e69b1c10aec9ed09716bd7f52962f488ce9cfc99b2fbd22f2c0b43",
+      "bytes": 26496,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-cosmetics/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-discord-rpc",
+      "folder": "dsh-discord-rpc",
+      "version": "1.0.0",
+      "summary": "Privacy-safe Discord Rich Presence for DSH using native Discord IPC.",
+      "sha256": "b3e121ca7f877c9747fe5382298a994ee3570472e880686a32f6e2b6d401d158",
+      "bytes": 8033,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-discord-rpc/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-dynamic-hub",
+      "folder": "dsh-dynamic-hub",
+      "version": "1.0.0",
+      "summary": "Clock, DSH uptime and Windows media controls",
+      "sha256": "77ee1bf72acedb3888d4196aeca3db848374759ecb537f14223d937d36206a0e",
+      "bytes": 26648,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-dynamic-hub/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-kill-guard",
+      "folder": "dsh-kill-guard",
+      "version": "2.0.0",
+      "summary": "System resource monitoring and guarded stopping for DSH-managed jobs and terminals.",
+      "sha256": "d787e058a4a8a1ae5d71474ed6778fc83561e5d349580fc0fa46bc5d5908edbd",
+      "bytes": 64357,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-kill-guard/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-locale-ja",
+      "folder": "dsh-locale-ja",
+      "version": "1.0.0",
+      "summary": "Japanese (ja) language pack for the DeepSeek Harness web GUI (display-only)",
+      "sha256": "dec664ef8b05fe44c023929efc3b47e895db2293459581031caa68dbcc30e899",
+      "bytes": 56343,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-locale-ja/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-native-tools",
+      "folder": "dsh-native-tools",
+      "version": "0.1.0",
+      "summary": "Rust-backed native search, file listing, and read tools for DeepSeek Harness",
+      "sha256": "1bed8426d41659b00e8a0ab22317a40ec59e22b996d8109dec879e168bc5aadd",
+      "bytes": 2613,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-native-tools/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-native-windows",
+      "folder": "dsh-native-windows",
+      "version": "1.0.0",
+      "summary": "Windows Wi-Fi, Bluetooth capability status, and guarded process management for DeepSeek Harness.",
+      "sha256": "f7b89f4188a4aeaeb323c6193f6d4eee8794894063cdec577a06ee2853610c27",
+      "bytes": 18506,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-native-windows/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-plugin-layout",
+      "folder": "dsh-plugin-layout",
+      "version": "1.0.0",
+      "summary": "A compact, easier-to-scan layout for the DSH plugin library.",
+      "sha256": "f0fc56071d26c5701dcc9e3de41d4296b9461ec161c3b55edbc0d816e557b9d9",
+      "bytes": 2754,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-plugin-layout/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-resource-manager",
+      "folder": "dsh-resource-manager",
+      "version": "1.0.0",
+      "summary": "Host memory snapshots and an opt-in cache registry without a visible MEM chip.",
+      "sha256": "b123c9bd3c37d1519efc688266b631b2310b6fff00be6eb34519a06ad8885748",
+      "bytes": 10645,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-resource-manager/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-spotlight",
+      "folder": "dsh-spotlight",
+      "version": "1.0.0",
+      "summary": "Keyboard-driven search and browser launcher for DSH",
+      "sha256": "62e4d9b06ecdf00b086d95d5a2b0511ce7a055422f4cb7ab86a277887e7c4a6c",
+      "bytes": 6199,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-spotlight/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-system-bar",
+      "folder": "dsh-system-bar",
+      "version": "1.0.0",
+      "summary": "Fixed CPU, memory and clock indicators with a compact system status panel.",
+      "sha256": "77d4132986c66d602bc6d2a5c7b44b51ecd3941001547149aa697f88e1d11e9f",
+      "bytes": 19589,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-system-bar/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-toast-tune",
+      "folder": "dsh-toast-tune",
+      "version": "1.0.0",
+      "summary": "Restyles the DeepSeek Harness toast banner (slide from the top, slide back out) and makes its display time configurable from the Plugins page.",
+      "sha256": "157c7cccab62e334b0a9d698b119d9f7c455ef80330343bccbbd033297539310",
+      "bytes": 18107,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-toast-tune/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-trajectory-ui",
+      "folder": "dsh-trajectory-ui",
+      "version": "1.0.0",
+      "summary": "Readability layer for the shipped DSH Trajectory ledger",
+      "sha256": "9e50b547ada9f96c188ce512e711c6299faed9b8b92088ce38c536efff56dd7e",
+      "bytes": 4182,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-trajectory-ui/plugin.tgz"
+    },
+    {
+      "name": "@local/dsh-wellness",
+      "folder": "dsh-wellness",
+      "version": "1.0.0",
+      "summary": "Relaxation feature: after long continuous DSH uptime, gently suggests a coffee break, a stretch, water and eye rest in a dismissible, snoozable toast.",
+      "sha256": "89278095118aa1856ea351ffcb2172966b8a7da2e8439137b7586975964255b6",
+      "bytes": 30381,
+      "url": "https://raw.githubusercontent.com/nezumi0627/dsh-plugin-catalog/main/plugins/dsh-wellness/plugin.tgz"
+    }
+  ]
+}
